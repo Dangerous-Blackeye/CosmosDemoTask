@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714011BDCFE67F1EA357EE22 /* Pods_Cosmos_Demo_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBADE1C7AEA0608B622DBB2 /* Pods_Cosmos_Demo_Task.framework */; };
+		BD776FF929FD7749003FC8DB /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD776FF829FD7749003FC8DB /* SplashController.swift */; };
+		BD776FFB29FD8A0B003FC8DB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD776FFA29FD8A0B003FC8DB /* ProfileViewController.swift */; };
+		BDE5889B29FB911800782303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5889A29FB911800782303 /* AppDelegate.swift */; };
+		BDE5889D29FB911800782303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5889C29FB911800782303 /* SceneDelegate.swift */; };
+		BDE5889F29FB911800782303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5889E29FB911800782303 /* ViewController.swift */; };
+		BDE588A229FB911800782303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE588A029FB911800782303 /* Main.storyboard */; };
+		BDE588A429FB911900782303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE588A329FB911900782303 /* Assets.xcassets */; };
+		BDE588A729FB911900782303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE588A529FB911900782303 /* LaunchScreen.storyboard */; };
+		BDE588B029FB9AE400782303 /* Container_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE588AF29FB9AE400782303 /* Container_VC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DBADE1C7AEA0608B622DBB2 /* Pods_Cosmos_Demo_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cosmos_Demo_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		581FD0DD1C0263A4B0B34484 /* Pods-Cosmos Demo Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cosmos Demo Task.release.xcconfig"; path = "Target Support Files/Pods-Cosmos Demo Task/Pods-Cosmos Demo Task.release.xcconfig"; sourceTree = "<group>"; };
+		BD776FF829FD7749003FC8DB /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashController.swift; path = Controllers/SplashController.swift; sourceTree = "<group>"; };
+		BD776FFA29FD8A0B003FC8DB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "Cosmos Demo Task/Controllers/ProfileViewController.swift"; sourceTree = "<group>"; };
+		BDE5889729FB911800782303 /* Cosmos Demo Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cosmos Demo Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE5889A29FB911800782303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDE5889C29FB911800782303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDE5889E29FB911800782303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE588A129FB911800782303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE588A329FB911900782303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDE588A629FB911900782303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDE588A829FB911900782303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE588AF29FB9AE400782303 /* Container_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container_VC.swift; sourceTree = "<group>"; };
+		E57639A93A9ADBD991401975 /* Pods-Cosmos Demo Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cosmos Demo Task.debug.xcconfig"; path = "Target Support Files/Pods-Cosmos Demo Task/Pods-Cosmos Demo Task.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE5889429FB911800782303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714011BDCFE67F1EA357EE22 /* Pods_Cosmos_Demo_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27984A368AACB3BF3771C060 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57639A93A9ADBD991401975 /* Pods-Cosmos Demo Task.debug.xcconfig */,
+				581FD0DD1C0263A4B0B34484 /* Pods-Cosmos Demo Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9124B06C585EDC79EEA654EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DBADE1C7AEA0608B622DBB2 /* Pods_Cosmos_Demo_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE5888E29FB911800782303 = {
+			isa = PBXGroup;
+			children = (
+				BD776FFA29FD8A0B003FC8DB /* ProfileViewController.swift */,
+				BDE5889929FB911800782303 /* Cosmos Demo Task */,
+				BDE5889829FB911800782303 /* Products */,
+				27984A368AACB3BF3771C060 /* Pods */,
+				9124B06C585EDC79EEA654EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE5889829FB911800782303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE5889729FB911800782303 /* Cosmos Demo Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE5889929FB911800782303 /* Cosmos Demo Task */ = {
+			isa = PBXGroup;
+			children = (
+				BDE588AE29FB9AC300782303 /* Controllers */,
+				BDE5889A29FB911800782303 /* AppDelegate.swift */,
+				BDE5889C29FB911800782303 /* SceneDelegate.swift */,
+				BDE588A029FB911800782303 /* Main.storyboard */,
+				BD776FF829FD7749003FC8DB /* SplashController.swift */,
+				BDE588A329FB911900782303 /* Assets.xcassets */,
+				BDE588A529FB911900782303 /* LaunchScreen.storyboard */,
+				BDE588A829FB911900782303 /* Info.plist */,
+			);
+			path = "Cosmos Demo Task";
+			sourceTree = "<group>";
+		};
+		BDE588AE29FB9AC300782303 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDE5889E29FB911800782303 /* ViewController.swift */,
+				BDE588AF29FB9AE400782303 /* Container_VC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE5889629FB911800782303 /* Cosmos Demo Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE588AB29FB911900782303 /* Build configuration list for PBXNativeTarget "Cosmos Demo Task" */;
+			buildPhases = (
+				41ED923AF082C76638041B34 /* [CP] Check Pods Manifest.lock */,
+				BDE5889329FB911800782303 /* Sources */,
+				BDE5889429FB911800782303 /* Frameworks */,
+				BDE5889529FB911800782303 /* Resources */,
+				7590880B2381987AAD98E957 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cosmos Demo Task";
+			productName = "Cosmos Demo Task";
+			productReference = BDE5889729FB911800782303 /* Cosmos Demo Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE5888F29FB911800782303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDE5889629FB911800782303 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BDE5889229FB911800782303 /* Build configuration list for PBXProject "Cosmos Demo Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE5888E29FB911800782303;
+			productRefGroup = BDE5889829FB911800782303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE5889629FB911800782303 /* Cosmos Demo Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE5889529FB911800782303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE588A729FB911900782303 /* LaunchScreen.storyboard in Resources */,
+				BDE588A429FB911900782303 /* Assets.xcassets in Resources */,
+				BDE588A229FB911800782303 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41ED923AF082C76638041B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cosmos Demo Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7590880B2381987AAD98E957 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cosmos Demo Task/Pods-Cosmos Demo Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cosmos Demo Task/Pods-Cosmos Demo Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cosmos Demo Task/Pods-Cosmos Demo Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE5889329FB911800782303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD776FFB29FD8A0B003FC8DB /* ProfileViewController.swift in Sources */,
+				BDE588B029FB9AE400782303 /* Container_VC.swift in Sources */,
+				BDE5889F29FB911800782303 /* ViewController.swift in Sources */,
+				BDE5889B29FB911800782303 /* AppDelegate.swift in Sources */,
+				BDE5889D29FB911800782303 /* SceneDelegate.swift in Sources */,
+				BD776FF929FD7749003FC8DB /* SplashController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDE588A029FB911800782303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE588A129FB911800782303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE588A529FB911900782303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE588A629FB911900782303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE588A929FB911900782303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDE588AA29FB911900782303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE588AC29FB911900782303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57639A93A9ADBD991401975 /* Pods-Cosmos Demo Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF5HA379ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cosmos Demo Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackeye.Cosmos-Demo-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDE588AD29FB911900782303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581FD0DD1C0263A4B0B34484 /* Pods-Cosmos Demo Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LF5HA379ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cosmos Demo Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackeye.Cosmos-Demo-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE5889229FB911800782303 /* Build configuration list for PBXProject "Cosmos Demo Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE588A929FB911900782303 /* Debug */,
+				BDE588AA29FB911900782303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE588AB29FB911900782303 /* Build configuration list for PBXNativeTarget "Cosmos Demo Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE588AC29FB911900782303 /* Debug */,
+				BDE588AD29FB911900782303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE5888F29FB911800782303 /* Project object */;
+}
